@@ -114,11 +114,11 @@ public class Buttons extends Button{
                 // Adding reference to the text field and text area array list according to the panels being generated
                 textField_list.add(addItem_textField);
                 System.out.println("Reference " + i + " of text field is saved");
-                System.out.println("Size of panel list: " + textField_list.size());
+                System.out.println("Size of text field list: " + textField_list.size());
                 
                 textArea_list.add(addItem_textArea);
                 System.out.println("Reference " + i + " of text area is saved");
-                System.out.println("Size of panel list: " + textArea_list.size());
+                System.out.println("Size of text area list: " + textArea_list.size());
 
                 // Setting the scroll bar and its functionality
                 scrollbar.setBounds(579, 30, 15, 415);
