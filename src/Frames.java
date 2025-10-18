@@ -113,7 +113,7 @@ public class Frames extends Frame{
     void load_backgroundImage(){
         // Load background image from file
         try {
-            background_image = ImageIO.read(new File("C:\\Users\\Abdul Rehman Tahir\\OneDrive\\Desktop\\ToDo List Application\\lib\\Background.png")); 
+            background_image = ImageIO.read(new File("lib\\Background.png"));
             System.out.println("Background image loaded successfully");
         } catch (IOException e) {
             e.printStackTrace();
@@ -192,7 +192,7 @@ class MenuFrame extends Frame{
     void load_menuImage(){
         // Load menu image from file
         try {
-            menu_image = ImageIO.read(new File("C:\\Users\\Abdul Rehman Tahir\\OneDrive\\Desktop\\ToDo List Application\\lib\\Menu image.png")); 
+            menu_image = ImageIO.read(new File("lib\\Menu image.png"));
             System.out.println("Menu image loaded successfully");
         } catch (IOException e) {
             System.out.println("Failed to load menu image");
